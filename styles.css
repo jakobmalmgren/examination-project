@@ -2,6 +2,8 @@
 /* ocksp shadows */
 /* font fam */
 /* modifiers */
+/* måste rätta till ikonerna o de e för långt
+ifrån i slutett */
 
 * {
   box-sizing: border-box;
@@ -653,5 +655,8 @@ body {
   .footer__wrapper {
     display: flex;
     flex-direction: row-reverse;
+  }
+  .footer__link {
+    font-size: 24px;
   }
 }
