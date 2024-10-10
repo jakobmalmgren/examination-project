@@ -14,6 +14,25 @@ body {
   width: 1000px;
   background-color: white;
 }
+.header-my-p-desktop__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  box-shadow: 0px 4px 4px 0px rgba(3, 56, 47, 0.11);
+  display: none;
+}
+.header-my-p-desktop__nav-list {
+  list-style: none;
+}
+.header-my-p-desktop__link {
+  text-decoration: none;
+  font-family: Maven Pro;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.5px;
+  color: rgba(5, 86, 71, 1);
+}
 .header-my-p {
   width: 100%;
   height: 390px;
@@ -275,4 +294,129 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 19.07px;
+}
+@media screen and (min-width: 860px) {
+  .header-my-p-desktop__nav {
+    display: flex;
+  }
+  .header-my-p__nav {
+    display: none;
+  }
+  .form-my-p__wrapper-form {
+    flex-direction: row;
+    width: 100%;
+    /* margin-top: 10px; */
+  }
+
+  /* -------- */
+  .gallery-my-p__header {
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.4px;
+    text-align: center;
+  }
+  .gallery-my-p__overlay {
+    display: block;
+    width: 150px;
+    height: 205px;
+  }
+  .gallery-my-p__card-item {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+  }
+  .gallery-my-p__card-date {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.79px;
+  }
+  .gallery-my-p__card-name {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.2px;
+  }
+  .gallery-my-p__card-icon {
+    display: none;
+  }
+  .gallery-my-p__btn-trash {
+    display: block;
+    width: 96.88px;
+    height: 30px;
+    border-radius: 9px;
+  }
+  .gallery-my-p__wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 440px;
+  }
+  .gallery-my-p__lower-wrapper {
+    grid-template-rows: 440px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer-my-p {
+    margin-top: 30px;
+    height: 336px;
+  }
+  .footer-my-p__img-wrapper {
+    grid-template-columns: repeat(4, 220px);
+    grid-template-rows: 277px;
+    justify-content: center;
+    align-content: center;
+  }
+  .footer-my-p__link {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.68px;
+  }
+}
+/* _______---- */
+
+<div
+  class="footer__link-container"
+  > <div
+  class="footer__link-wrapper"
+  > <a
+  class="footer__link"
+  href=""
+  > Till
+  toppen
+  av
+  sidan</a
+  > </div
+  > </div
+  > .footer__text-wrapper {
+  flex-direction: row;
+  width: 50%;
+  height: 100%;
+}
+.footer__big-icon {
+  width: 50%;
+  height: 100%;
+}
+.footer__wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.footer__link-container {
+  height: 170px;
+  display: flex;
+  width: 100%;
+  box-shadow: none;
+  align-items: self-start;
+  background-color: rgba(252, 245, 252, 1);
+}
+
+.footer__link-wrapper {
+  width: 100%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+.footer__link {
+  font-size: 24px;
 }

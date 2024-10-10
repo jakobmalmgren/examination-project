@@ -1,10 +1,4 @@
-/* fixa alt till bilder */
-/* ocksp shadows */
-/* font fam */
-/* modifiers */
-/* måste rätta till ikonerna o de e för långt
-ifrån i slutett */
-
+/* modefiers */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -19,8 +13,6 @@ body {
 .wrapper {
   width: 1000px;
   background-color: white;
-
-  /* ttta bort sen */
 }
 
 .header {
@@ -37,7 +29,6 @@ body {
   grid-template-rows: repeat(3, 1fr) auto;
 }
 .header__main-img {
-  /* fixa bilden sen */
   grid-column: 1/5;
   grid-row: 1/5;
   height: 100%;
@@ -143,6 +134,8 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 19.07px;
+  text-align: center;
+  max-width: 70%;
   text-align: center;
 }
 .ideas__btn {
@@ -371,6 +364,8 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 19.07px;
+  max-width: 70%;
+  text-align: center;
 }
 .history__btn {
   width: 179px;
@@ -481,9 +476,6 @@ body {
 }
 
 @media screen and (min-width: 860px) {
-  body {
-    /* height: 3732px; */
-  }
   .wrapper {
   }
 
@@ -540,9 +532,10 @@ body {
     line-height: 43.58px;
   }
   .ideas__paragraph {
+    max-width: none;
+    text-align: left;
     font-size: 16px;
     line-height: 21.79px;
-    text-align: left;
   }
   .ideas__btn {
     align-self: flex-end;
@@ -652,6 +645,8 @@ body {
   }
   .history__paragraph {
     font-size: 16px;
+    max-width: none;
+    text-align: left;
   }
   .history__btn {
     width: 281px;
@@ -687,7 +682,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
     height: 60px;
   }
   .footer__link {
