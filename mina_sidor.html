@@ -18,27 +18,55 @@
           <h1 class="header-my-p__header">Mina sidor</h1>
       </header>
         <!-- section 2 -->
+       
         <div class="innerwrapper-my-p">
-          <main class="gallery-my-p">
-            <h1 class="gallery-my-p__header">Lägg till ny plantering:</h1>
-            <form class="gallery-my-p__form" action="" >
-              <div class="gallery-my-p__wrapper-form">
-                <div class="gallery-my-p__input-wrapper">  
-                  <label class="gallery-my-p__label" for="Planta">Planta:</label>
-                  <input class="gallery-my-p__input" type="text" id="Planta" name="Planta">
+          <section class="form-my-p">
+            <h1 class="form-my-p__header">Lägg till ny plantering:</h1>
+            <form class="form-my-p__form-item" action="" >
+              <div class="form-my-p__wrapper-form">
+                <div class="form-my-p__input-wrapper">  
+                  <label class="form-my-p__label" for="Planta">Planta:</label>
+                  <input class="form-my-p__input" type="text" id="Planta" name="Planta">
                 </div>
-                <div class="gallery-my-p__input-wrapper">   
-                  <label class="gallery-my-p__label" for="Datum">Datum:</label>
-                  <input class="gallery-my-p__input" type="text" id="Datum" name="Datum">
+                <div class="form-my-p__input-wrapper">   
+                  <label class="form-my-p__label" for="Datum">Datum:</label>
+                  <input class="form-my-p__input" type="text" id="Datum" name="Datum">
                 </div>
-                <input class="gallery-my-p__btn" type="submit" value="LÄGG TILL">
+                <input class="form-my-p__btn" type="submit" value="LÄGG TILL">
               </div>
             </form> 
-          </main>
+          </section>
+          <!-- section 3 -->
+      <main class="gallery-my-p">
+         <h1 class="gallery-my-p__header">Dina planerade planteringar:</h1>
+        <div class="gallery-my-p__wrapper">
+          <div class="gallery-my-p__card one">
+            <figure class="gallery-my-p__card-img-wrapper">
+              <img
+                class="gallery-my-p__overlay"
+                src="/assets/icons/plant.svg"
+                alt="overlay-icon"
+              />
+            </figure>
+            <div class="gallery-my-p__info-container">
+              <div class="gallery-my-p__top-section-wrapper">
+                <h3 class="gallery-my-p__card-item">Gurka</h3>
+                <p class="gallery-my-p__card-date">15 april 2024</p>
+              </div>
+              <div class="gallery-my-p__lower-section-wrapper">
+                <p class="gallery-my-p__card-name">Rico Coolio</p>
+                <img
+                  class="gallery-my-p__card-icon"
+                  src="/assets/icons/Vector (Stroke).svg"
+                  alt="trash"
+                />
+                <button class="gallery-my-p__btn-trash">TA BORT</button>
+              </div>
+            </div>
+          </div>
         </div>
-
-
-    </div>
-    
-  </body>
+      </main>
+</div>
+</div>
+</body>
 </html>
