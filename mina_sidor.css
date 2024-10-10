@@ -58,14 +58,10 @@ color: white;
 /* section 2 */
 .innerwrapper-my-p {
     margin: auto;
-    background-color: blue;
+    background-color: rgb(2, 2, 211);
     height: 1000px;
        /* ta väck sen */
     width: 93%;
- 
-}
-.gallery-my-p{
-    
 }
 .gallery-my-p__header{
 font-family: Open Sans;
@@ -76,51 +72,54 @@ text-align: center;
 
 }
 .gallery-my-p__form{
-    background-color: rgb(0, 255, 98);
-    height: 400px;
+    border: 3px solid black;
+    height: 250px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 
-/* .all-wrapper{
-    background-color: pink;
+.gallery-my-p__wrapper-form{
     width: 100%;
     display: flex;
+    max-width: 440px;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-} */
+
+}
 .gallery-my-p__input-wrapper{
     display: flex;
     flex-direction: column;
-    background-color: rebeccapurple;
-   width: 100%;
-    /* align-items: center; */
+    width: 100%; 
+    margin-top: 10px;
 }
-.gallery-my-p__label{
 
-}
 .gallery-my-p__input{
     border-radius: 4px;
     outline: none;
     border: 1px;
-    max-width: 442px;
     height: 36px;
     box-shadow: 0px 4px 4px 0px #00000040;
-
-
 }
+
 .gallery-my-p__label, .gallery-my-p__input {
     font-family: Open Sans;
     font-size: 12px;
     font-weight: 400;
     line-height: 16.34px;
-    text-align: left;
-
 }
 
 .gallery-my-p__btn{
-    
+    margin-top: 25px;
+    width: 115.67px;
+    height: 34.71px;
+    border-radius: 9px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.79px;
+    color: white;
+    border: none;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background-color: #0A846E;  
 }
 
