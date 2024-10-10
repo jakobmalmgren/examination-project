@@ -329,7 +329,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .history_icon-wrapper {
   margin: 0 auto;
@@ -623,6 +623,12 @@ body {
   .gallery__btn {
     grid-column: 2/3;
     align-self: end;
+    width: 157px;
+    height: 63px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32.68px;
   }
   /* fourth section */
   .history {
