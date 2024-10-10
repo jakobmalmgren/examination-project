@@ -58,7 +58,7 @@ color: white;
 /* section 2 */
 .innerwrapper-my-p {
     margin: auto;
-    background-color: rgb(2, 2, 211);
+    /* background-color: rgb(2, 2, 211); */
     height: 1000px;
        /* ta väck sen */
     width: 93%;
@@ -243,12 +243,21 @@ grid-row: 1/2;
   .footer-my-p{
     margin-top: 30px;
     background-color:  #9E6D52;
-    height: 220px;
-    display: grid;
+    /* padding: 1.4rem; */
+    height: 300px;
+    /* display: grid;
     gap: 1.4rem;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr) 0.3fr;
+    grid-template-rows: repeat(2, 1fr) 0.5fr; */
   }
+  .footer-my-p__img-wrapper{
+    height: 100%;
+    display: grid;
+    gap: 1.2rem;
+    grid-template-columns: 1.2rem 1.3fr 1.3fr 1.2rem;
+    grid-template-rows: 1.2rem 1fr 1fr 1.2rem;
+  }
+  /* .form-my-p__label, */
   .footer-my-p__img{
     background-repeat: no-repeat;
     background-size: cover;
@@ -259,18 +268,28 @@ grid-row: 1/2;
     width: 100%;
   }
 .footer-my-p__img--paprika{
+ grid-column: 2/3;
+ grid-row: 2/3;
   background-image: url(/assets/images/manplockarpaprika.avif);
   }
   .footer-my-p__img--vattenkanna{
+    grid-column: 3/4;
+    grid-row: 2/3;
 background-image: url(/assets/images/vattenkanna.avif);
+
   }
   .footer-my-p__img--morötter{
 background-image: url(/assets/images/morötter-etc.avif);
+grid-column: 2/3;
+grid-row: 3/4;
   }
   .footer-my-p__img--flicka{
 background-image: url(/assets/images/flicka.avif);
+grid-column: 3/4;
+grid-row: 3/4;
   }
-  .footer-my-p__link{
-    background-color: white;
-  }
+
+   .footer-my-p__link-wrapper{
+
+   }
  
