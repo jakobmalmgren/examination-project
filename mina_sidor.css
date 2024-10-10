@@ -8,7 +8,6 @@ body {
   background-color: rgba(252, 246, 252, 1);
   display: flex;
   justify-content: center;
-  /* height: 100vh; */
 }
 .wrapper-my-p {
   width: 1000px;
@@ -90,6 +89,7 @@ body {
   height: 250px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .form-my-p__wrapper-form {
@@ -123,6 +123,7 @@ body {
 }
 
 .form-my-p__btn {
+  align-self: center;
   margin-top: 25px;
   width: 115.67px;
   height: 34.71px;
@@ -152,6 +153,10 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 220px;
 }
+.one {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
 
 .gallery-my-p__card {
   box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -169,8 +174,6 @@ body {
   height: 70%;
 }
 .gallery-my-p__overlay {
-  /* width: 65px;
-    height: 90px; */
   display: none;
 }
 
@@ -230,10 +233,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 220px;
 }
-.one {
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
+
 .two {
   grid-column: 1/2;
   grid-row: 1/2;
@@ -292,10 +292,9 @@ body {
 .footer-my-p__link {
   text-decoration: none;
   color: black;
-  font-family: Open Sans;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 16.34px;
+  line-height: 19.07px;
 }
 @media screen and (min-width: 860px) {
   .header-my-p-desktop__nav {
@@ -311,23 +310,22 @@ body {
     font-weight: 400;
     line-height: 43.58px;
   }
+
+  .form-my-p__wrapper-form {
+    flex-direction: row;
+    max-width: none;
+  }
   .form-my-p__label {
     font-size: 20px;
     font-weight: 400;
     line-height: 27.24px;
   }
-  .form-my-p__wrapper-form {
-    flex-direction: row;
-    max-width: none;
-    /* margin-top: 10px; */
-  }
+
   .form-my-p__input-wrapper {
     padding: 10px;
   }
-
-  /* 
-  här */
   /* section 3 */
+
   .gallery-my-p__header {
     font-family: Lato;
     font-size: 32px;
@@ -381,7 +379,7 @@ body {
     height: 336px;
   }
   .footer-my-p__img-wrapper {
-    grid-template-columns: repeat(4, 220px);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 277px;
     justify-content: center;
     align-content: center;
@@ -411,8 +409,3 @@ body {
     line-height: 32.68px;
   }
 }
-
-/* koppla samman länka med
-modefiers 
-form
-semanttisk  */

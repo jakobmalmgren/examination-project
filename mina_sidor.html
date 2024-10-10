@@ -7,7 +7,7 @@
     <title>Planned Planthood</title>
   </head>
   <body>
-    <div class="wrapper-my-p">
+    <div id="top-my-p" class="wrapper-my-p">
       <header class="header-my-p-desktop">
         <nav class="header-my-p-desktop__nav">
           <ul class="header-my-p-desktop__nav-list">
@@ -27,7 +27,9 @@
           </ul>
           <ul class="header-my-p-desktop__nav-list">
             <li class="header-my-p-desktop__list-item">
-              <a class="header-my-p-desktop__link" href="">LOGGA UT</a>
+              <a class="header-my-p-desktop__link" href="/index.html"
+                >LOGGA UT</a
+              >
             </li>
           </ul>
         </nav>
@@ -35,11 +37,12 @@
 
       <header class="header-my-p">
         <nav class="header-my-p__nav">
-          <img
-            class="header-my-p__burger"
-            src="/assets/icons/burgir.svg"
-            alt="mobile-nav"
-          />
+          <a class="header-my-p__link" href="/index.html">
+            <img
+              class="header-my-p__burger"
+              src="/assets/icons/burgir.svg"
+              alt="mobile-nav"
+          /></a>
         </nav>
         <div class="header-my-p__logo-wrapper">
           <img class="header-my-p__logo" src="/assets/icons/Logo.svg" alt="" />
@@ -71,8 +74,8 @@
                   name="Datum"
                 />
               </div>
-              <!-- <input class="form-my-p__btn" type="submit" value="LÄGG TILL" /> -->
             </div>
+            <input class="form-my-p__btn" type="submit" value="LÄGG TILL" />
           </form>
         </section>
         <!-- section 3 -->
@@ -170,7 +173,9 @@
 
         <div class="footer-my-p__link-container">
           <div class="footer-my-p__link-wrapper">
-            <a class="footer-my-p__link" href=""> Till toppen av sidan</a>
+            <a class="footer-my-p__link" href="#top-my-p">
+              Till toppen av sidan</a
+            >
           </div>
         </div>
       </footer>
