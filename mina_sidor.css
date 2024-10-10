@@ -132,19 +132,14 @@ background-color: red;
     font-weight: 600;
     line-height: 21.79px;
     text-align: center;
-    margin-bottom: 15px;
+   padding: 15px 0px;
     
 }
-
-
-
-
-
 .gallery-my-p__wrapper{
     /* background-color: white;
     width: 93%;
     margin: auto; */
-    height: 800px;
+    /* height: 800px; */
     background-color: green;
     display: grid;
     gap: 1.4rem;
@@ -169,8 +164,9 @@ background-color: red;
     height: 70%;
   }
   .gallery-my-p__overlay {
-    width: 65px;
-    height: 90px;
+    /* width: 65px;
+    height: 90px; */
+    display: none;
   }
   
   .gallery-my-p__info-container {
@@ -223,7 +219,58 @@ background-color: red;
     background-color: rgba(185, 56, 87, 1);
     display: none;
   }
+  .gallery-my-p__lower-wrapper{
+    display: grid;
+    gap: 1.4rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:220px ;
+    /* grid-template-rows: 0.2fr 1.5fr 1.5fr 1.5fr 0.2fr; */
+  }
   .one {
     grid-column: 1/2;
     grid-row: 1/2;
   }
+  .two{
+grid-column: 1/2;
+grid-row: 1/2;
+  }
+
+  .three{
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  /* section 4 */
+  .footer-my-p{
+    margin-top: 30px;
+    background-color:  #9E6D52;
+    height: 220px;
+    display: grid;
+    gap: 1.4rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr) 0.3fr;
+  }
+  .footer-my-p__img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+.footer-my-p__img--paprika{
+  background-image: url(/assets/images/manplockarpaprika.avif);
+  }
+  .footer-my-p__img--vattenkanna{
+background-image: url(/assets/images/vattenkanna.avif);
+  }
+  .footer-my-p__img--morötter{
+background-image: url(/assets/images/morötter-etc.avif);
+  }
+  .footer-my-p__img--flicka{
+background-image: url(/assets/images/flicka.avif);
+  }
+  .footer-my-p__link{
+    background-color: white;
+  }
+ 
